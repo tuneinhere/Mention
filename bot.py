@@ -12,7 +12,7 @@ logging.basicConfig(
 LOGGER = logging.getLogger(__name__)
 
 # Environment variables
-api_id = int(os.environ.get("26730559"))
+api_id = int(os.environ.get(26730559))
 api_hash = os.environ.get("54e0fd326f54b4ea91fdcbdf98e3cf4e")
 bot_token = os.environ.get("1671481145:AAEqfQr54lHeH6w1MeGbFe2ygWT-Bz6KLPY")
 owner_id = int(os.environ.get("1472568994"))  # Tambahkan OWNER_ID sebagai environment variable
